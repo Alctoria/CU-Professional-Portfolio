@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid red;
   }
   
   html {
@@ -32,11 +31,12 @@
   }
   
   
-  header ul li {
+  header ul a {
     display: inline-block;
     margin-left: 40px;
     border-bottom-width: 15px;
     border-bottom-color: black;
+    color:#E4DAC4;
   }
 
   h2 {
@@ -71,6 +71,12 @@
     background-color: black;
     color: antiquewhite;
   }
+
+  /* about me text styling  */
+
+  .width750 h3, .width750 p {
+    margin-bottom: 15px;
+  }
   
 
   /* body section  */
@@ -91,6 +97,52 @@
     display: flex;
   }
 
+  .mainpresentation a img,
+  .dualpresentation1 img,
+  .dualpresentation2 img {
+    border: solid 5px blue;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    user-select: none;
+    overflow: hidden;
+    margin-right: 10px;
+  }
+
+  .mainpresentation, .dualpresentation1 {
+    margin-bottom: 25px;
+  }
+
+  .mainpresentation {
+    display: flex;
+    justify-content: center;
+  }
+
+  .dualpresentation1, .dualpresentation2 {
+    display: flex;
+  }
+
+  .mainpresentation figcaption {
+    background: blue;
+    color: white;
+    padding: 0.25em 25px;
+    position: relative;
+    width: 45%;
+    bottom: 100px;
+    left: 0;
+    z-index: 2;
+  }
+
+  .project2 figcaption, .project3 figcaption, .project4 figcaption, .project5 figcaption {
+    background: blue;
+    color: white;
+    padding: 0.25em 25px;
+    position: relative;
+    width: 25%;
+    bottom: 75px;
+    left: 0;
+    z-index: 2;
+  }
 
   /* face picture  */
 
@@ -109,6 +161,18 @@
     background-image: url("images/tartan-wave-red.png");
   }
 
+  .footer-title {
+    color: black;
+    font-size: 48px;
+    display: inline-block;
+    border-right: 5px solid;
+    margin-right: 35px;
+    text-align: right;
+    padding: 40px;
+    width: 230px;
+    height: auto;
+  }
+
   .footerend {
     display: flex;
     align-items: center;
@@ -117,8 +181,10 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', san-serif;
   }
   
-  .footerend li {
+  .footerend a {
+    display: flex;
     margin-right: 20px;
     border-bottom-width: 12px;
     border-bottom-color: black;
+    color: #E4DAC4;
   }
