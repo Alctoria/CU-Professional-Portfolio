@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+  }
+  
+  html {
+    height: 100%;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  header {
+    background-image: url("images/tartan-wave-red.png");
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', san-serif;
+    align-items: center;
+    padding: 1%;
+  }
+  
+  header h1 {
+    background-image: url("images/tartan-wave-white.png");
+    color: black;
+    margin: 5px 10px 5px -15px;
+    font-size: 50px;
+    width: 400px;
+    text-align: right;
+  }
+  
+  
+  header ul li {
+    display: inline-block;
+    margin-left: 40px;
+    border-bottom-width: 15px;
+    border-bottom-color: black;
+  }
+
+  h2 {
+    color: var(--text-color);
+    font-size: 2.25em;
+    font-weight: bold;
+    text-align: right;
+    width: 100%;
+    position: relative;
+  }
+
+  .labeldecoration {
+    color: #E4DAC4;
+    padding-top: 20px;
+    margin-right: 20px;
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .mainbackgroundimage {
+    height: 500px;
+    width: 100%;
+    background-image: url("images/carnegiescs.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  section{
+    display: flex;
+    padding: 20px;
+    background-color: black;
+    color: antiquewhite;
+  }
+  
+
+  /* body section  */
+
+  .section-title {
+    color: white;
+    font-size: 48px;
+    display: inline-block;
+    border-right: 5px solid;
+    margin-right: 35px;
+    text-align: right;
+    padding: 40px;
+    width: 225px;
+    height: auto;
+  }
+
+  .profile-pic {
+    display: flex;
+  }
+
+  /* face picture  */
+
+  .profile-pic {
+    width: 300px;
+    height: 300px;
+    margin-left: 100px;
+    align-items: center;
+  }
+
+
+  /* footer section  */
+
+  .end {
+    display: flex;
+    background-image: url("images/tartan-wave-red.png");
+  }
+
+  .footerend {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: #E4DAC4;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', san-serif;
+  }
+  
+  .footerend li {
+    margin-right: 20px;
+    border-bottom-width: 12px;
+    border-bottom-color: black;
+  }
