@@ -83,13 +83,14 @@
     margin-right: 35px;
     text-align: right;
     padding: 40px;
-    width: 225px;
+    width: 210px;
     height: auto;
   }
 
   .profile-pic {
     display: flex;
   }
+
 
   /* face picture  */
 
